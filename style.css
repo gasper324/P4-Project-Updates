@@ -762,6 +762,10 @@ h4 {
     text-decoration: underline!important;
 }
 
+.bold-text {
+    font-weight: 900;
+}
+
 .service-header {
     font-size: 15px;
     font-weight: 700;
@@ -771,26 +775,32 @@ h4 {
 .bgc-white {
     background-color: #FFFFFF;
 }
+.text-white {
+    color:white;
+}
+.text-dark-slate-blue {
+    color: #364577;
+}
 
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #F4976C;
 }
 
 .tc-white {
-    color: #364577!important;
+    color:#B1DCFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #F4976C;
+    color: #303C6C!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #D34703!important;
     color: #FFFFFF!important;
 }
 
@@ -970,6 +980,7 @@ h4 {
     .navbar-brand img {
         max-height: 40px;
         width: auto;
+    
     }
     .nav-invert .navbar-header {
         float: none;
