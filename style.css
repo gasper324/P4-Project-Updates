@@ -840,7 +840,9 @@ h4 {
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta-made-sign-orange-small.jpg");
 }
-
+.form-group {
+    padding: 15px 0px;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
