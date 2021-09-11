@@ -946,6 +946,7 @@ h4 {
         text-align: left;
         padding-left: 15px;
         width: 100%;
+
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
@@ -1055,5 +1056,8 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    li {
+        padding: 15px 0px;
     }
 }
